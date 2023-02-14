@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- display nan sample -->
+    <p id="notanumber"></p>
+    <button onclick="nan_sample (0,0)">Click to see 0/0 result</button>
+
+    <!-- display true -->
+    <p id="notanumber1"></p>
+    <button onclick="checking_nan ()">Click Here</button>
+
+    <!-- display false -->
+    <p id="notanumber2"></p>
+    <button onclick="checking_nan2 ()">Click Here</button>
+
+    <!-- Positive and negative Infinity Sampes -->
+    <p id="positiveinfinity"></p>
+    <button onclick="posin ()">Click Here to see positive infinity</button>
+
+    <p id="negativeinfinity"></p>
+    <button onclick="negin ()">Click Here to see negative infinity</button>
+
+    <!-- Boolean True and False Samples -->
+    <p id="booleantrue"></p>
+    <button onclick="booltrue (5,3)">Is 5>3 ?</button>
+
+    <p id="booleanfalse"></p>
+    <button onclick="boolfalse (6,21)">Is 6>21 ?</button>
+
+    <!-- Assignment 31, == True/False Samples -->
+
+    <p id="equaltrue"></p>
+    <button onclick="equalitytrue ((3+3),6)">(3+3)==6?</button>
+
+    <p id="equalfalse"></p>
+    <button onclick="equalityfalse (4,5)">Is 4 == 5 ?</button>
+
+    <!-- Assignment 34, using Not ! operator -->
+
+    <p id="nottrue" onclick=""></p>
+    <button onclick="not_function ()">Not function True Sample !(5>6)</button>
+
+    <p id="notfalse" onclick=""></p>
+    <button onclick="not_functionFalse()">
+      Not function False Sample !(10>6)
+    </button>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
